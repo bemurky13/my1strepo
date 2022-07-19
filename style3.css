@@ -1,0 +1,30 @@
+/* ul.info{
+
+}
+
+
+
+
+div.info{} */
+
+
+ul.info>li{
+    list-style: none;
+}
+
+ul.info>li li:nth-child(2){list-style: none;}
+
+ol li a{text-decoration: none;}
+
+ol li a[target='_blank']{color: green;}
+
+
+ol li a[href='https://www.google.com/']{background-color: rgb(166, 166, 243);}
+
+ol li a[href*='google']{color: pink;}
+/* 开头选择器 */
+/* ol li a[href^='https']{color: blueviolet;} */
+
+ol li a[href$='.com.au']{background-color:coral;}
+
+ol li a[href*='google'][href$='.com.au']{font-style: italic;}

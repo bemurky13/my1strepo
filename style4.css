@@ -1,0 +1,19 @@
+section.showcase>header>.logo {
+    text-transform: uppercase;
+}
+/* 
+.video {
+    width: 100vw;
+    height: 100vh;
+} */
+
+section.showcase>header>.toggle {
+    width: 60px;
+    height: 60px;
+    background: url('svg/menu.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section.showcase>.text>h1,
+section.showcase>.text>h2,
